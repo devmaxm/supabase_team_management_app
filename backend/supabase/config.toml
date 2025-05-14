@@ -277,7 +277,7 @@ enabled = false
 
 [auth.external.google]
 enabled = true
-client_id = "443566634594-b1d7i0m1u38n9563a28fk8qijkkmco2m.apps.googleusercontent.com"
+client_id = "env(SUPABASE_AUTH_GOOGLE_CLIENT_ID)"
 secret = "env(SUPABASE_AUTH_EXTERNAL_GOOGLE_SECRET)"
 
 [edge_runtime]
